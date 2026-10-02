@@ -93,7 +93,7 @@ support-ticket-triage/
 uv sync
 
 # Run the server
-uv run app.py
+fastapi run app.py
 ```
 
 ## Environment Variables

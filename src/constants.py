@@ -1,0 +1,12 @@
+from enum import StrEnum
+
+CONFIDENCE_THRESHOLD = 0.67
+NOUL_UNCERTAINTY_LOW = 0.2
+NOUL_UNCERTAINTY_HIGH = 0.8
+
+
+class Urgency(StrEnum):
+    LOW = "LOW"
+    MEDIUM = "MEDIUM"
+    HIGH = "HIGH"
+    CRITICAL = "CRITICAL"
